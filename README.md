@@ -5,6 +5,6 @@
     Branches Include:
     <li>C mini Projects (IPC 144 - Seneca College) </li>
     <li>C++ mini Projects (IPC 244 - Seneca College)</li>
-    <li>Gallery assignment (WEB222 - Seneca College)<input type="button" value="Preview"><a href="https://louisan42.github.io/"></input></a></li>
+    <li>Gallery assignment (WEB222 - Seneca College)<input type="button" value="Preview"><a href="https://louisan42.github.io/">Preview</input></a></li>
     
    </ul>
