@@ -1,5 +1,6 @@
 <!-- WEB222N1Q Assignment 1
-Code written by Louis Amoah-Nuamah -->
+Code written by Louis Amoah-Nuamah 
+Images Refernce: https://depositphotos.com -->
 <!Doctype html>
 <html lang="en">
   <head>
@@ -10,21 +11,30 @@ Code written by Louis Amoah-Nuamah -->
       *{
         box-sizing: border-box;
       }
+      body{
+        border: 3px solid black;
+        border-radius: 15px;
+        background-image: url("images/inna_g\(author\)depositphotos_11383298-stock-illustration-african-pattern.jpg") ;
+        background-repeat: repeat;
+        background-size: auto;
+        background-position: center;
+        background-clip: border-box;       
+      }
        #bdaImg { 
         border: 10px solid transparent;
         padding: 10px;
-        border-image: url("kente.jpg") 40 repeat;
+        border-image: url("images/kente.jpg") 40 repeat;
         
       }
-       #picbda {
+       .picbda {
         border: 8px solid;
         padding: 5px;
-        border-image: url("kente1.jpg") 40 repeat;
+        border-image: url("images/kente1.jpg") 40 repeat;
       }
     
       header{
         background-color: rgb(51, 50, 50);
-        font-family: "Papyrus",fantasy;
+        font-family:Garamond, serif;
         color: white;
         font-size: 18px;
         text-align: center;
@@ -38,18 +48,19 @@ Code written by Louis Amoah-Nuamah -->
         margin-bottom: 25px;
       }
      
-      .mContent{
+      article
+      {
         
         border: 3px solid black;
         min-height: fit-content;
         border-radius: 15px;
         width: 50%;
-        margin: auto;
+        margin-left: 25%;
+        margin-bottom: 20px;
         background-color: goldenrod;
         color: black;
       }
       section{
-        overflow: auto;
         font-family: "Lucida Console", "Courier New", monospace;
         margin: 20px;
       }
@@ -82,12 +93,12 @@ Code written by Louis Amoah-Nuamah -->
         width: 45px;
         border-radius: 25px;
         display: block;
-        margin-left: 50%;
-        
-        
+        margin: 0 auto;
+        clear: both;  
       }
       hr{
         border: 1px solid black;
+        clear: both;
       }
       ul{
         list-style-type: none;
@@ -107,7 +118,12 @@ Code written by Louis Amoah-Nuamah -->
         background: darkolivegreen;
         color: white;
       }
-      
+      h1 span{
+        font-family: 'Papyrus', fantasy; 
+        font-weight: bolder;
+         text-shadow: 3px 3px; 
+        color: olive;
+      }
       
 
      
@@ -115,8 +131,9 @@ Code written by Louis Amoah-Nuamah -->
   </head>
   <body>
     <header id="bdaImg">
+      <h4 style="font-family: 'Andale Mono, monospace'; text-align: center;">MESEUM OF CONTEMPORARY AFRICAN ARTS COLLECTION</h4>
       <h1>
-        THE VIRTUAL AFRICAN ARTS GALLERY
+        THE VIRTUAL <span >AFRICAN ARTS</span>  GALLERY
       </h1>
     </header>
     <nav>
@@ -130,7 +147,7 @@ Code written by Louis Amoah-Nuamah -->
       </ul>
     </nav>
     
-    <article class="mContent">
+    <article>
       <section id="section1" style="text-align: left;">
         <img class="alignleft" src="images/mask.jpg" alt="Mask" title="We are many faces">
         
@@ -141,25 +158,25 @@ Code written by Louis Amoah-Nuamah -->
         380 x 350 pixels</p>
         <h4>created by Keltmd</h4>
       </section>
-      <a href="A1-Louis_Amoah-Nuamah(WEB222N1Q).html">
-        <img class="navToTop" src="uparrow.png">
+      <a href="index.html">
+        <img class="navToTop" src="images/uparrow.png" alt="navigate to top">
       </a>
       <hr />
       <section id="section2" style="text-align: right;">
-        <img id="picbda" class ="alignright" src="images/image_1.jpg" alt="African mother" title="To all our mothers">
-        <h3> Keltmd &copy; Deposit Photos </h3>
-        <strong> Tribal Masks </strong><br />
-        An illustration recognizing the different ethnic groups of the African people. <br>
+        <img class ="alignright picbda" src="images/image_1.jpg" alt="African mother" title="To all our mothers">
+        <h3> Deposit Photos </h3>
+        <strong> Mama Africa </strong><br />
+        Women are the backbone of every household in most African communities. This art depicts the various roles they play in the family <br>
         <p><strong> Format </strong><br />Imitation leather print<br />
         380 x 350 pixels</p>
-        <h4>created by Keltmd</h4>
+        
       </section>
-      <a href="A1-Louis_Amoah-Nuamah(WEB222N1Q).html">
-        <img class="navToTop" src="images/uparrow.png">
+      <a href="index.html">
+        <img class="navToTop" src="images/uparrow.png" alt="navigate to top">
       </a>
       <hr />
       <section id="section3" style="text-align: left;">
-        <img class="alignleft" style="height: 350px; width: 450px;" src="images/kente1.jpg" alt="African mother" title="A dipiction of the strenght and compassion of African mothers">
+        <img class="alignleft" style="height: 350px; width: 450px;" src="images/kente1.jpg" alt="Ghana Kente" title="kente cloth">
         <h3> Bonwire </h3>
         <strong> Kente </strong><br />
         A very popular woven cloth work usually worn by West African people. <br>
@@ -167,12 +184,12 @@ Code written by Louis Amoah-Nuamah -->
         350 x 450 pixels</p>
         <h4> created by Bonwire Kente</h4>
       </section>
-      <a href="A1-Louis_Amoah-Nuamah(WEB222N1Q).html">
-        <img class="navToTop" src="images/uparrow.png">
+      <a href="index.html">
+        <img class="navToTop" src="images/uparrow.png" alt="navigate to top">
       </a>
       <hr />
       <section id="section4" style="text-align: right;">
-        <img id="picbda" style="width: 400px;height: 400px;"   class = "alignright" src="images/lion.jpg" alt="lion" title="lion head">
+        <img style="width: 400px;height: 400px;"   class = "alignright picbda" src="images/lion.jpg" alt="lion" title="lion head">
         <h3> Maverick Inanta &copy; Deposit Photos </h3>
         <strong> Lion Head </strong><br />
         Our differences are what make us unique <br>
@@ -180,30 +197,30 @@ Code written by Louis Amoah-Nuamah -->
         400 x 400 pixels</p>
         <h4>created by Maverick Inanta</h4>
       </section>
-      <a href="A1-Louis_Amoah-Nuamah(WEB222N1Q).html">
-        <img class="navToTop" src="images/uparrow.png">
+      <a href="index.html">
+        <img class="navToTop" src="images/uparrow.png" alt="navigate to top">
       </a>
       <hr />
-      <section id="contact" style="text-align: right;">
-        <b>Visit us at</b><br/>
+      <address id="contact" style="text-align: right; margin: 20px; font-size: larger;">
+        <h3>Visit us at</h3>
         123 Upper Main Street<br/>
         Toronto - Ontario<br/>
         M3V 2L6<br/>
         <p>
           You can also reach us by <br />
-          <b>Email:</b><a href="malito:lamoah-nuamah@myseneca.ca">lamaoh-nuamah@myseneca.ca</a><br />
+          <b>Email:</b><a href="mailto:lamoah-nuamah@myseneca.ca">lamaoh-nuamah@myseneca.ca</a><br />
           <b>Tel: </b>416 999 9999
-        </p>
-        
-             
-      </section>
-      <a href="A1-Louis_Amoah-Nuamah(WEB222N1Q).html">
-        <img class="navToTop" src="images/uparrow.png">
+        </p>  
+      </address>
+      <a href="index.html">
+        <img class="navToTop" src="images/uparrow.png" alt="navigate to top">
       </a>
     </article>
-    
-     
-      
+    <footer>
+      <cite style="background-color: darkgoldenrod;">
+        Images downloaded from https://depositphotos.com <br />Icon from https://thenounproject.com<br />for learning purposes only
+      </cite>
+    </footer> 
   </body>
   
 </html>
