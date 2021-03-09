@@ -1,0 +1,192 @@
+/* CSS file for store assignment
+ WEBB222
+ Author: Louis Amoah-Nuamah */
+@font-face{
+    font-family: ReggaeOne;
+    src: url(../fonts/Reggae_One/ReggaeOne-Regular.ttf);
+   
+}
+@font-face{
+    font-family: Risque;
+    src: url(../fonts/Risque/Risque-Regular.ttf);
+}
+@font-face{
+    font-family: Monoton;
+    src: url(../fonts/Monoton/Monoton-Regular.ttf);
+
+}
+@font-face{
+    font-family: Truculenta;
+    src: url(../fonts/Truculenta/Truculenta-VariableFont_opsz\,wdth\,wght.ttf);
+}
+body.fontFormat{
+    font-family: Truculenta;
+    font-size: 1.25em;
+    
+}
+
+.displayBox{
+    width: 50%;
+    height: 700px;
+    margin: 0 auto;
+    border: 0;
+
+    
+}
+
+article iframe{
+    border: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+.container{
+    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    gap: 11px;
+   
+}
+.topFill{
+    background-color: #0097f4;
+    padding: 15px;
+}
+
+ h6{
+     padding: 0;
+     margin: 0;
+ }
+
+header> h1{
+   
+    font-family: Monoton;
+    text-align: center;
+    font-size: 3.4em;
+    padding: 0;
+    background-color: #37167f;
+    color: white;
+    margin: 5px 0;
+}
+
+.gridItemGen {
+    text-align: center;
+    padding: 0;
+    
+}
+.gridItemDesc{
+    text-align: left;
+    padding: 0;
+}
+h3{
+    padding: 0;
+    margin: 0;
+}
+.gridImg {
+    width: 117px;
+    height: 79px;
+}
+.colorBox{
+    width: 7px;
+    height: 5px;
+    border: 1px solid black;
+}
+.black{
+    background-color: black;
+}
+.brown{
+    background-color: brown;
+}
+.white{
+    background-color: white;
+}
+.rosyBrown{
+    background-color: rosybrown
+}
+.gold{
+    background-color: goldenrod;
+}
+.red{
+    background-color: red;
+}
+.navyBlue{
+    background-color: navy;
+}
+article.pages{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: 0 auto;
+   
+}
+
+#menu{
+    display: inline-block;
+    text-align: center; 
+    font-family: Risque;
+    background-color: #d7075a;
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+       
+}
+
+#menu a {
+    display: inline-block;
+    padding: 15px 55px;
+    background-color: #d7075a;
+    color :#37167f;
+    text-align: center;
+    text-decoration: none;
+    transition-property: color, background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    
+}
+
+#menu a:hover:not(.activePage){
+    background-color: cadetblue;
+    color: white;
+    border-radius: 8px;
+    transform: scale(1.4);
+
+}
+#menu a:first-child{
+    border-left: 1px solid black;
+   
+}
+#menu a:last-child{
+    border-right: 1px solid black;
+}
+
+#menu .activePage{
+    background-color: white;
+    color: #37167f;
+    font-size: 1.8em;
+    border-radius: 8px 8px 0px 0px;
+    border: 1px solid #d7075a;
+    border-bottom: 0;
+   
+}
+
+img.frontPics{
+    height: 155px;
+    width: 156px;
+    margin: 15px;
+}
+.dropMenu{
+    width: 300px;
+    height: 25px;
+    background-color: #0097f4;
+    color:snow;
+    font-family: Truculenta;
+    font-size: .8em;
+    text-align: right;
+    
+}
+.btn{
+    height: 30px;
+    font-family: Truculenta;
+    font-size: 1em;
+}
